@@ -33,71 +33,65 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>Our Blog!</h1>
+        <h1>Contact us!</h1>
   
 
     </section>
 
-<!---------blog page ----->
+<!---------contact us ----->
+<section class="location">
 
-<section class="blog-contents">
+<iframe src="https://www.google.com
+/maps/embed?pb=!1m18!1m12!1m3!1d3255.
+390480538219!2d139.44682361527944!3d35.
+32112375724425!2m3!1f0!2f0!3f0!3m2!1i1024!
+2i768!4f13.1!3m3!1m2!1s0x60184e0b178c09e9%3A0x
+5d9643164822cd21!2z6L675aCC5rW35rWc5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1661048045615!
+5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" 
+loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+
     <div class="row">
-        <div class="blog-left">
-            <img src="photos/foodtruck_pic.jpg" alt="">
-            <h2>Our FoodTruck Business and How We Started from the Scratch </h2>
-            <p> So, I was talking to my one of my best friend, Takumi. I, Yugo was the one 
-                decided to do the business but Takumi was willing to help me out. I was very lucky to 
-                have him as a friend. Through out our foodtruck business, I learned so much about life and 
-                how business work in actual life. I was saving a lot of money by making almost everything by 
-                ourself. But I spend almost 5k for this project and I am not regreting for this. I wish this 
-                business will pay off the all works Takumi and I put. At the end, it doesn't matter if the business
-                will be successful one or not. The experience of this will cherish my life. To be continued...  </p>
-
-                <div class="comment-box">
-
-                    <h3>Leave a comment </h3>
-
-                    <form class= "comment-form">
-                        <input type="text" placeholder="Enter name">
-                        <input type="email" placeholder="Enter Email">
-                        <textarea rows="5" placeholder="Your comment"></textarea>
-                        <button type="submit" class="hero-btn red-btn">POST COMMENT
-                        </button>
-                    </form>
-                </div>
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>3-45-1 Tsujido, Fujisawa City,</h5>
+                    <p>Kanagawa, Japan, 251-0042</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>(080)-7654-9898</h5>
+                    <p>Monday to Friday, 9am to 5pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>yugosaito0414@gmail.com</h5>
+                    <p>Email us your quaries!</p>
+                </span>
+            </div>
         </div>
+        <div class="contact-col">
 
-
-
-        <div class="blog-right">
-            <h3>Post Categories</h3>
-            <div>
-                <span>Life</span>
-                <span>21</span>
-            </div>
-            <div>
-                <span>Challenges </span>
-                <span>24</span>
-            </div>
-            <div>
-                <span>Stories</span>
-                <span>11</span>
-            </div>
-            <div>
-                <span>Friends</span>
-                <span>65</span>
-            </div>
-            <div>
-                <span>Menu</span>
-                <span>49</span>
-            </div>
-
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="10" name="message" placeholder="Messages" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
         </div>
     </div>
 
-
-
 </section>
+
 
 
 <!---------Footer----->
